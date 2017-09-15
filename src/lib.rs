@@ -1,7 +1,10 @@
-#![feature(lang_items)]
+#![feature(lang_items, unique, const_fn)]
 #![no_std]
 
 extern crate rlibc;
+extern crate volatile;
+
+mod vga_buffer;
 
 #[no_mangle]
 pub extern fn rust_main() {
