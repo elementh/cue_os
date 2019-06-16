@@ -7,3 +7,5 @@
 Cargo.lock
 
 build/
+.idea
+cue_os.iml
